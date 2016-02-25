@@ -1,0 +1,75 @@
+#Author: Rabeet Sagri
+#This file will run to change IP of QuadCore.
+
+currentIpPath="/etc/network/"				#Maintaining log file
+currentIpFile="interfaces"					#Maintaining log file
+address=""									#Maintaining log file
+netmask=""									#Maintaining log file
+gateway=""									#Maintaining log file
+dns=""										#Maintaining log file
+
+newaddress=""								#Maintaining log file
+newnetmask=""								#Maintaining log file
+newgateway=""								#Maintaining log file
+newdns=""									#Maintaining log file
+logFile="/logFile.log"						#Maintaining log file
+
+address=$(cat $currentIpPath$currentIpFile | grep "address" | awk '{print $2}')
+netmask=$(cat $currentIpPath$currentIpFile | grep "netmask" | awk '{print $2}')
+gateway=$(cat $currentIpPath$currentIpFile | grep "gateway" | awk '{print $2}')
+dns=$(cat $currentIpPath$currentIpFile | grep "dns-nameservers" | awk '{print $2}')
+
+echo_output()
+{
+	printf "$1"
+	printf "$1" >> $logFile
+}
+
+clear
+echo_output "\n\tVersion Release [0.1 Beta] - IP Configuration Wizard \n\n"
+echo_output "Enter IP Address [$address]: "
+read newaddress
+echo_output "Enter Subnet Mask [$netmask]: "
+read newnetmask
+echo_output "Enter Gateway IP [$gateway]: "
+read newgateway
+echo_output "Enter DNS Server IP [$dns]: "
+read newdns
+
+if [ "$newaddress" == "" ]; then
+	newaddress=$address
+fi
+
+if [ "$newnetmask" == "" ]; then
+	newnetmask=$netmask
+fi
+
+if [ "$newgateway" == "" ]; then
+	newgateway=$gateway
+fi
+
+if [ "$newdns" == "" ]; then
+	newdns=$dns
+fi
+
+sed -i '6 c\address '$newaddress'' $currentIpPath$currentIpFile
+sed -i '7 c\netmask '$newnetmask'' $currentIpPath$currentIpFile
+sed -i '8 c\gateway '$newgateway'' $currentIpPath$currentIpFile
+sed -i '9 c\dns-nameservers '$newdns'' $currentIpPath$currentIpFile
+
+echo_output "\n\nSUCCESS : IP will be changed on next boot.\n\n"
+
+
+restart()
+{
+	if [ $debugMode -eq 0 ]; then
+		cp /logFile.log /mnt/t/Restore/tmp/								
+		umount $mountPoint /mnt/c >> $logFile
+		umount /dev/sdc1 /mnt/t >> $logFile
+		reboot
+		exit $?
+	fi
+	echo "Debug Mode is Disabled."
+}
+
+#restart

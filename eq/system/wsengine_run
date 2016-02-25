@@ -1,0 +1,16 @@
+#!/bin/bash
+killall -9 rep
+killall -HUP inetd
+
+now="$(date +'%Y%m%d')"
+rm -f /eq/logs/consolelogs/*
+mkdir -p /eq/logs/consolelogs
+touch /eq/logs/consolelogs/$now.log
+
+echo "#########################################"
+echo "Starting WaveSphere Engine."
+echo "Press Crtl + C to restart application."
+echo "#########################################"
+tail -f /eq/logs/consolelogs/$now.log &
+/jre/bin/java -jar /eq/WSEngine.jar > /eq/logs/consolelogs/$now.log
+sleep 1

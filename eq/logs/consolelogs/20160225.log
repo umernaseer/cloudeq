@@ -1,83 +1,57 @@
-2016-02-25 15:17:38.361 INFO  EQMS:41 - Java v1.8.0_65-b17
-2016-02-25 15:17:38.369 INFO  EQMS:42 - Spectra Engine v15.0.9.3
-2016-02-25 15:17:38.607 INFO  Global:60 - Total Allowed TSU = 20
-2016-02-25 15:17:38.608 INFO  EQMS:82 - Total Allowed SoftTSUs are 20
-2016-02-25 15:17:39.018 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
-2016-02-25 15:17:39.040 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
-2016-02-25 15:17:39.044 INFO  Environment:239 - HHH000206: hibernate.properties not found
-2016-02-25 15:17:39.050 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
-2016-02-25 15:17:39.109 INFO  Configuration:2073 - HHH000043: Configuring from resource: hibernate.cfg.xml
-2016-02-25 15:17:39.110 INFO  Configuration:2092 - HHH000040: Configuration resource: hibernate.cfg.xml
-2016-02-25 15:17:39.179 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
-2016-02-25 15:17:39.233 INFO  Configuration:757 - HHH000221: Reading mappings from resource: com/wavetec/eqms/models/data/ProfileData.hbm.xml
-2016-02-25 15:17:39.315 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
-2016-02-25 15:17:39.377 INFO  Configuration:757 - HHH000221: Reading mappings from resource: com/wavetec/eqms/models/data/SequenceData.hbm.xml
-2016-02-25 15:17:39.384 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
-2016-02-25 15:17:39.422 INFO  Configuration:757 - HHH000221: Reading mappings from resource: com/wavetec/eqms/models/data/DeviceData.hbm.xml
-2016-02-25 15:17:39.434 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
-2016-02-25 15:17:39.472 INFO  Configuration:757 - HHH000221: Reading mappings from resource: com/wavetec/eqms/models/conf/Profile.hbm.xml
-2016-02-25 15:17:39.480 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
-2016-02-25 15:17:39.510 INFO  Configuration:757 - HHH000221: Reading mappings from resource: com/wavetec/eqms/models/data/TicketData.hbm.xml
-2016-02-25 15:17:39.518 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
-2016-02-25 15:17:39.549 INFO  Configuration:757 - HHH000221: Reading mappings from resource: com/wavetec/eqms/models/data/EventData.hbm.xml
-2016-02-25 15:17:39.569 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
-2016-02-25 15:17:39.592 INFO  Configuration:757 - HHH000221: Reading mappings from resource: com/wavetec/eqms/models/data/ActivityData.hbm.xml
-2016-02-25 15:17:39.601 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
-2016-02-25 15:17:39.624 INFO  Configuration:757 - HHH000221: Reading mappings from resource: com/wavetec/eqms/models/conf/Pool.hbm.xml
-2016-02-25 15:17:39.631 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
-2016-02-25 15:17:39.649 INFO  Configuration:757 - HHH000221: Reading mappings from resource: com/wavetec/eqms/models/conf/Category.hbm.xml
-2016-02-25 15:17:39.657 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
-2016-02-25 15:17:39.678 INFO  Configuration:757 - HHH000221: Reading mappings from resource: com/wavetec/eqms/models/conf/Matter.hbm.xml
-2016-02-25 15:17:39.685 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
-2016-02-25 15:17:39.706 INFO  Configuration:757 - HHH000221: Reading mappings from resource: com/wavetec/eqms/models/data/CounterData.hbm.xml
-2016-02-25 15:17:39.712 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
-2016-02-25 15:17:39.731 INFO  Configuration:757 - HHH000221: Reading mappings from resource: com/wavetec/eqms/models/conf/Reason.hbm.xml
-2016-02-25 15:17:39.738 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
-2016-02-25 15:17:39.755 INFO  Configuration:757 - HHH000221: Reading mappings from resource: com/wavetec/eqms/models/conf/Sequence.hbm.xml
-2016-02-25 15:17:39.762 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
-2016-02-25 15:17:39.777 INFO  Configuration:757 - HHH000221: Reading mappings from resource: com/wavetec/eqms/models/data/TicketMatterData.hbm.xml
-2016-02-25 15:17:39.784 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
-2016-02-25 15:17:39.810 INFO  Configuration:757 - HHH000221: Reading mappings from resource: com/wavetec/eqms/models/conf/Activity.hbm.xml
-2016-02-25 15:17:39.819 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
-2016-02-25 15:17:39.835 INFO  Configuration:757 - HHH000221: Reading mappings from resource: com/wavetec/eqms/models/conf/Counter.hbm.xml
-2016-02-25 15:17:39.842 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
-2016-02-25 15:17:39.859 INFO  Configuration:757 - HHH000221: Reading mappings from resource: com/wavetec/eqms/models/conf/SystemField.hbm.xml
-2016-02-25 15:17:39.867 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
-2016-02-25 15:17:39.882 INFO  Configuration:757 - HHH000221: Reading mappings from resource: com/wavetec/eqms/models/conf/User.hbm.xml
-2016-02-25 15:17:39.889 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
-2016-02-25 15:17:39.908 INFO  Configuration:2214 - HHH000041: Configured SessionFactory: null
-2016-02-25 15:17:40.184 INFO  C3P0ConnectionProvider:133 - HHH010002: C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://127.0.0.1:3306/eqms
-2016-02-25 15:17:40.186 INFO  C3P0ConnectionProvider:134 - HHH000046: Connection properties: {user=root, password=****, autocommit=false}
-2016-02-25 15:17:40.187 INFO  C3P0ConnectionProvider:137 - HHH000006: Autocommit mode: false
-2016-02-25 15:17:40.250 INFO  MLog:124 - MLog clients using log4j logging.
-2016-02-25 15:17:40.574 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5-pre10 [built 06-November-2014 02:02:55 -0800; debug? true; trace: 10]
-2016-02-25 15:17:40.782 INFO  AbstractPoolBackedDataSource:522 - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@b8145d2f [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@68598160 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> z8kflt9f6xscifslah8i|1d250c6, idleConnectionTestPeriod -> 3000, initialPoolSize -> 5, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@54cf4bd1 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> z8kflt9f6xscifslah8i|84f40f, jdbcUrl -> jdbc:mysql://127.0.0.1:3306/eqms, properties -> {user=******, password=******, autocommit=false} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> z8kflt9f6xscifslah8i|159f197, numHelperThreads -> 3 ]
-2016-02-25 15:17:41.648 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2016-02-25 15:17:42.071 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
-2016-02-25 15:17:42.085 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
-2016-02-25 15:17:43.828 INFO  CategoryStatus:299 - 
-Category Status (count:time):
-==============================
-ID   |ISSUE       |CALL        |SERVE       |WAIT        |RECALL      |NOSHOW      |T_CATEGORY  |T_COUNTER   |T_USER      |
-User Status (count:time):
-==============================
-ID   |ISSUE       |CALL        |SERVE       |WAIT        |RECALL      |NOSHOW      |T_CATEGORY  |T_COUNTER   |T_USER      |
-Counter Status (count:time):
-==============================
-ID   |ISSUE       |CALL        |SERVE       |WAIT        |RECALL      |NOSHOW      |T_CATEGORY  |T_COUNTER   |T_USER      |
-2016-02-25 15:17:43.864 INFO  HBDataStore:152 - Last Published Event ID: 0
-2016-02-25 15:17:43.865 INFO  HBDataStore:153 - Last Closed Event ID: 0
-2016-02-25 15:17:43.866 INFO  Processor:105 - DataStore initialized.
-2016-02-25 15:17:46.109 INFO  Processor:111 - Communicator initialized.
-2016-02-25 15:17:46.109 INFO  RMQCommunicator:64 -  [*] Waiting for messages.
-2016-02-25 15:17:46.115 INFO  Processor:121 - Heart initialized.
-2016-02-25 15:17:46.118 INFO  Processor:127 - EventGenerator initialized.
-2016-02-25 15:17:46.124 INFO  Processor:133 - Publisher initialized.
-2016-02-25 15:17:46.183 INFO  HardwarePublisher:108 - Resetting SDU 101
-Stable Library
-=========================================
-Native lib Version = RXTX-2.2pre2
-Java lib Version   = RXTX-2.1-7
-WARNING:  RXTX Version mismatch
-	Jar version = RXTX-2.1-7
-	native lib Version = RXTX-2.2pre2
+2016-02-25 15:21:55.334 INFO  EQMS:41 - Java v1.8.0_65-b17
+2016-02-25 15:21:55.342 INFO  EQMS:42 - Spectra Engine v15.0.9.3
+2016-02-25 15:21:55.571 INFO  Global:60 - Total Allowed TSU = 20
+2016-02-25 15:21:55.572 INFO  EQMS:82 - Total Allowed SoftTSUs are 20
+2016-02-25 15:21:55.955 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-02-25 15:21:55.976 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2016-02-25 15:21:55.981 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2016-02-25 15:21:55.986 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2016-02-25 15:21:56.047 INFO  Configuration:2073 - HHH000043: Configuring from resource: hibernate.cfg.xml
+2016-02-25 15:21:56.048 INFO  Configuration:2092 - HHH000040: Configuration resource: hibernate.cfg.xml
+2016-02-25 15:21:56.117 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-02-25 15:21:56.170 INFO  Configuration:757 - HHH000221: Reading mappings from resource: com/wavetec/eqms/models/data/ProfileData.hbm.xml
+2016-02-25 15:21:56.253 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-02-25 15:21:56.315 INFO  Configuration:757 - HHH000221: Reading mappings from resource: com/wavetec/eqms/models/data/SequenceData.hbm.xml
+2016-02-25 15:21:56.322 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-02-25 15:21:56.360 INFO  Configuration:757 - HHH000221: Reading mappings from resource: com/wavetec/eqms/models/data/DeviceData.hbm.xml
+2016-02-25 15:21:56.372 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-02-25 15:21:56.408 INFO  Configuration:757 - HHH000221: Reading mappings from resource: com/wavetec/eqms/models/conf/Profile.hbm.xml
+2016-02-25 15:21:56.416 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-02-25 15:21:56.445 INFO  Configuration:757 - HHH000221: Reading mappings from resource: com/wavetec/eqms/models/data/TicketData.hbm.xml
+2016-02-25 15:21:56.452 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-02-25 15:21:56.482 INFO  Configuration:757 - HHH000221: Reading mappings from resource: com/wavetec/eqms/models/data/EventData.hbm.xml
+2016-02-25 15:21:56.502 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-02-25 15:21:56.524 INFO  Configuration:757 - HHH000221: Reading mappings from resource: com/wavetec/eqms/models/data/ActivityData.hbm.xml
+2016-02-25 15:21:56.531 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-02-25 15:21:56.552 INFO  Configuration:757 - HHH000221: Reading mappings from resource: com/wavetec/eqms/models/conf/Pool.hbm.xml
+2016-02-25 15:21:56.559 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-02-25 15:21:56.575 INFO  Configuration:757 - HHH000221: Reading mappings from resource: com/wavetec/eqms/models/conf/Category.hbm.xml
+2016-02-25 15:21:56.583 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-02-25 15:21:56.603 INFO  Configuration:757 - HHH000221: Reading mappings from resource: com/wavetec/eqms/models/conf/Matter.hbm.xml
+2016-02-25 15:21:56.610 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-02-25 15:21:56.627 INFO  Configuration:757 - HHH000221: Reading mappings from resource: com/wavetec/eqms/models/data/CounterData.hbm.xml
+2016-02-25 15:21:56.634 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-02-25 15:21:56.651 INFO  Configuration:757 - HHH000221: Reading mappings from resource: com/wavetec/eqms/models/conf/Reason.hbm.xml
+2016-02-25 15:21:56.657 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-02-25 15:21:56.673 INFO  Configuration:757 - HHH000221: Reading mappings from resource: com/wavetec/eqms/models/conf/Sequence.hbm.xml
+2016-02-25 15:21:56.681 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-02-25 15:21:56.695 INFO  Configuration:757 - HHH000221: Reading mappings from resource: com/wavetec/eqms/models/data/TicketMatterData.hbm.xml
+2016-02-25 15:21:56.701 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-02-25 15:21:56.727 INFO  Configuration:757 - HHH000221: Reading mappings from resource: com/wavetec/eqms/models/conf/Activity.hbm.xml
+2016-02-25 15:21:56.736 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-02-25 15:21:56.751 INFO  Configuration:757 - HHH000221: Reading mappings from resource: com/wavetec/eqms/models/conf/Counter.hbm.xml
+2016-02-25 15:21:56.757 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-02-25 15:21:56.774 INFO  Configuration:757 - HHH000221: Reading mappings from resource: com/wavetec/eqms/models/conf/SystemField.hbm.xml
+2016-02-25 15:21:56.781 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-02-25 15:21:56.796 INFO  Configuration:757 - HHH000221: Reading mappings from resource: com/wavetec/eqms/models/conf/User.hbm.xml
+2016-02-25 15:21:56.804 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-02-25 15:21:56.821 INFO  Configuration:2214 - HHH000041: Configured SessionFactory: null
+2016-02-25 15:21:57.078 INFO  C3P0ConnectionProvider:133 - HHH010002: C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://127.0.0.1:3306/eqms
+2016-02-25 15:21:57.079 INFO  C3P0ConnectionProvider:134 - HHH000046: Connection properties: {user=root, password=****, autocommit=false}
+2016-02-25 15:21:57.080 INFO  C3P0ConnectionProvider:137 - HHH000006: Autocommit mode: false
+2016-02-25 15:21:57.136 INFO  MLog:124 - MLog clients using log4j logging.
+2016-02-25 15:21:57.433 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5-pre10 [built 06-November-2014 02:02:55 -0800; debug? true; trace: 10]
+2016-02-25 15:21:57.621 INFO  AbstractPoolBackedDataSource:522 - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@2e774e19 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@debc724a [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> z8kflt9f6xxuq21jxtl61|1d250c6, idleConnectionTestPeriod -> 3000, initialPoolSize -> 5, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@ab3595a7 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> z8kflt9f6xxuq21jxtl61|84f40f, jdbcUrl -> jdbc:mysql://127.0.0.1:3306/eqms, properties -> {user=******, password=******, autocommit=false} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> z8kflt9f6xxuq21jxtl61|159f197, numHelperThreads -> 3 ]
+2016-02-25 15:21:58.447 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-02-25 15:21:58.841 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-02-25 15:21:58.853 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
